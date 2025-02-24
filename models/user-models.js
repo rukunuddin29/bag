@@ -9,12 +9,11 @@ const userSchema=mongoose.Schema({
         type:Array,
         default:[]
     },
-    isadmin:Boolean,
     orders:{
         type:Array,
         default:[]
     },
-    contact:number,
+    contact:Number,
     pictures:String,
 })
 
